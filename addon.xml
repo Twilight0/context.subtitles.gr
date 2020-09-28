@@ -2,6 +2,7 @@
 <addon id="context.subtitles.gr" version="0.0.1" name="Subtitles.gr menu item" provider-name="Twilight0">
     <requires>
         <import addon="xbmc.python" version="2.26.0"/>
+        <import addon="service.subtitles.subtitles.gr"/>
     </requires>
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
