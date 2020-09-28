@@ -1,2 +1,1 @@
-# context.subtitles.gr
-A companion context menu item mostly for development purposes of the subtitles.gr service addon
+![Subtitles.gr companion menu item](icon.png)
