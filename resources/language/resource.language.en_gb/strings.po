@@ -26,3 +26,7 @@ msgstr ""
 msgctxt "#30003"
 msgid "Subtitles.gr: Context Menu"
 msgstr ""
+
+msgctxt "#30004"
+msgid "Clear function cache"
+msgstr ""

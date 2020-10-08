@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="context.subtitles.gr" version="0.0.3" name="Subtitles.gr menu item" provider-name="Twilight0">
+<addon id="context.subtitles.gr" version="0.0.4" name="Subtitles.gr menu item" provider-name="Twilight0">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
         <import addon="service.subtitles.subtitles.gr"/>
@@ -14,6 +14,10 @@
                 </item>
                 <item library="resources/lib/options.py">
                     <label>30001</label>
+                    <visible>!ListItem.IsFolder</visible>
+                </item>
+                <item library="resources/lib/clear_cache.py">
+                    <label>30004</label>
                     <visible>!ListItem.IsFolder</visible>
                 </item>
             </menu>
