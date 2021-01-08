@@ -1,1 +1,2 @@
-![Subtitles.gr companion menu item](icon.png)
+#Subtitles.gr global context menu item
+###_Author: Twilight0_

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="context.subtitles.gr" version="0.0.4" name="Subtitles.gr menu item" provider-name="Twilight0">
+<addon id="context.subtitles.gr" version="0.0.5" name="Subtitles.gr menu item" provider-name="Twilight0">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
         <import addon="service.subtitles.subtitles.gr"/>
@@ -28,7 +28,7 @@
             <icon>icon.png</icon>
         </assets>
         <summary lang="en_gb">Subtitles.gr global context menu item</summary>
-        <summary lang="el_gr">Στοιχείο αντικειμένου για το ολικό μενού του Kodi</summary>
+        <summary lang="el_gr">Ενιαίο στοιχείο για το κόντεξτ (εναλλακτικό) μενού του Kodi για το Subtitles.gr</summary>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <website>https://alivegr.net</website>
