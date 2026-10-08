@@ -9,7 +9,11 @@
 '''
 
 from shutil import rmtree
-from xbmc import translatePath
+
+try:
+    from xbmcvfs import translatePath
+except ImportError:
+    from xbmc import translatePath
 from xbmcgui import Dialog
 
 
@@ -27,4 +31,4 @@ if __name__ == '__main__':
 
     action()
 
-    Dialog().notification('Subtitles.gr', 'OK', time=2, sound=False)
+    Dialog().notification('Subtitles.gr', 'OK', time=2000, sound=False)
